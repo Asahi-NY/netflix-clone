@@ -1,5 +1,6 @@
 import useAuth from "hooks/useAuth";
-import { useSubscription } from "hooks/useSubscription";
+import useSubscription from "hooks/useSubscription";
+
 import { goToBillingPortal } from "lib/stripe";
 import React, { useState } from "react";
 import Loader from "./Loader";
